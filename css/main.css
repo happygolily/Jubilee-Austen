@@ -9,18 +9,17 @@ body {
 
 .full-width {
     margin: 0 auto;
-    overflow: auto;
-    width: 1200px;
+    overflow: auto;  
 }
 
 .half-width {
     float: left;
-    width: 600px;
+    width: 50%;
 }
 
 .third-width {
     float: left;
-    width: 400px;    
+    width: 33%;    
 }
 
 /***** HEADER section *****/
@@ -36,12 +35,12 @@ header h1 {
     color: #BBc085;
     font-family: 'Lora', serif ;
     font-size: 30px;
-    padding: 65px 0 65px 25px;
+    padding: 65px 0 65px 100px;
 }
 
 nav {
     float: right; 
-    padding: 75px 25px;
+    padding: 75px 100px;
 }
 
 nav ul li{
@@ -62,7 +61,7 @@ header h2 {
     font-family: 'Lora', serif ;
     font-size: 72px;
     line-height: 80px;
-    padding: 20px 0 20px 25px;
+    padding: 20px 0 20px 100px;
     width: 1000px;
 }
 
@@ -73,7 +72,7 @@ header h2 span {
 /***** ABOUT section *****/
 
 #about .full-width {
-    padding: 80px 0;
+    padding: 75px 125px;
 }
 
 #about h2 {
@@ -98,7 +97,7 @@ header h2 span {
 }
 
 #work .full-width {
-    padding: 115px 0;
+    padding: 115px 50px;
 }
 
 #work img{
@@ -129,9 +128,9 @@ header h2 span {
     padding: 110px 0;
 }
 
-#contact img#contact-img {
+#contact #contact-img {
     border: 12px solid #ffffff;
-    margin-left: 25px;   
+    margin-left: 150px;   
 }
 
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
